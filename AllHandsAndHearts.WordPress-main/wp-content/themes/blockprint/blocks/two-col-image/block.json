@@ -1,0 +1,28 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/two-col-image",
+    "title": "Two-Column Image",
+    "description": "",
+    "category": "blockprint",
+    "icon": "format-image",
+    "keywords": ["2"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "viewScript": "file:./scripts.js"
+}

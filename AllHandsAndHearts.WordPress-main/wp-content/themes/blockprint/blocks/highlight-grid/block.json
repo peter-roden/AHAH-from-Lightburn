@@ -1,0 +1,27 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/highlight-grid",
+    "title": "Highlight Grid",
+    "description": "",
+    "category": "blockprint",
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='currentColor'><rect x='4' y='4' width='12' height='4'/><rect x='4' y='10' width='12' height='4'/><rect x='20' y='4' width='8' height='8'/><rect x='32' y='4' width='8' height='8'/><rect x='20' y='16' width='8' height='8'/><rect x='32' y='16' width='8' height='8'/><rect x='20' y='28' width='8' height='8'/><rect x='32' y='28' width='8' height='8'/></svg>",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/section-header",
+    "title": "Section Header",
+    "description": "",
+    "category": "blockprint",
+    "icon": "block-default",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        },
+        "color": {
+            "background": true,
+            "text": true,
+            "link": true
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    }
+}

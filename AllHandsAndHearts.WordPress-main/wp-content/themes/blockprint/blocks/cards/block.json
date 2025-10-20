@@ -1,0 +1,28 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/cards",
+    "title": "Cards",
+    "description": "",
+    "category": "blockprint",
+    "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" stroke=\"currentColor\" stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" viewBox=\"0 0 24 24\"><rect fill=\"none\" width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\" ry=\"1\"/><rect fill=\"none\" width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\" ry=\"1\"/><rect fill=\"none\" width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\" ry=\"1\"/><rect fill=\"none\" width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\" ry=\"1\"/></svg>",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    },
+    "style": "file:../../assets/css/dist/swiper.css"
+}

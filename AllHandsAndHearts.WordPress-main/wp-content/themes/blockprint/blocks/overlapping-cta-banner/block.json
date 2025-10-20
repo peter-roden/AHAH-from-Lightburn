@@ -1,0 +1,31 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/overlapping-cta-banner",
+    "title": "Overlapping CTA Banner",
+    "description": "",
+    "category": "blockprint",
+    "icon": "block-default",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        },
+        "color": {
+            "text": true,
+            "background": false
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    }
+}

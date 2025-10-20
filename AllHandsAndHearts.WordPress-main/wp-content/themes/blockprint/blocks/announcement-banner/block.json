@@ -1,0 +1,25 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/announcement-banner",
+    "title": "Announcement Banner",
+    "description": "",
+    "category": "blockprint",
+    "icon": "megaphone",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full"],
+        "anchor": false
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "parent": []
+}

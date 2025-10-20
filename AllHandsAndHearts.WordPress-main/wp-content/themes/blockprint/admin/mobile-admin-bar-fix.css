@@ -1,0 +1,24 @@
+@media screen and (max-width: 600px) {
+	#wpadminbar {
+		position: fixed;
+		display: flex;
+		flex-wrap: nowrap;
+		overflow-x: auto;
+		overflow-y: hidden;
+	}
+
+	#wpadminbar > *,
+	#wpadminbar .ab-top-menu {
+		display: flex;
+		flex-wrap: nowrap;
+	}
+
+	#wpadminbar .ab-sub-wrapper {
+		display: none !important;
+	}
+
+	#wpadminbar .quicklinks {
+		flex-grow: 1;
+		justify-content: space-between;
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/tab",
+    "title": "Tab",
+    "description": "",
+    "style": [],
+    "category": "custom",
+    "icon": "<svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" aria-hidden=\"true\" focusable=\"false\"><path d=\"M12 3V8C12 9.10457 12.8954 10 14 10H16.5H21M5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21Z\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"></path></svg>",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "jsx": true
+    },
+    "parent": ["acf/tabs"]
+}

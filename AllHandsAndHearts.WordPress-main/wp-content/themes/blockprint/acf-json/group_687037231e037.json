@@ -1,0 +1,84 @@
+{
+    "key": "group_687037231e037",
+    "title": "Program History List",
+    "fields": [
+        {
+            "key": "field_687037235202d",
+            "label": "Active Programs Heading",
+            "name": "active_programs_heading",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Active Programs",
+            "maxlength": "",
+            "allow_in_bindings": 0,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_687037787c3af",
+            "label": "Active Programs Text",
+            "name": "active_programs_text",
+            "aria-label": "",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "<p>Deserunt pariatur elit aliquip voluptate laboris elit culpa tempor nulla anim laboris nulla. Ipsum incididunt dolore magna velit in duis ut cillum. Sunt ea deserunt pariatur consectetur officia labore laboris ex. Nulla pariatur reprehenderit fugiat eiusmod duis laboris. Reprehenderit amet nisi est ad id anim elit pariatur. Anim aliqua sit ex aliqua adipisicing dolor ipsum ea nisi nulla commodo.<\/p>",
+            "allow_in_bindings": 0,
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0,
+            "delay": 0
+        },
+        {
+            "key": "field_6870378d7c3b0",
+            "label": "Active Programs Button Link",
+            "name": "active_programs_button_link",
+            "aria-label": "",
+            "type": "link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "allow_in_bindings": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/program-history-list"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1752184754
+}

@@ -1,0 +1,230 @@
+{
+    "key": "group_6341d4b3c6003",
+    "title": "Spacer",
+    "fields": [
+        {
+            "key": "field_6341d4bd2b2b9",
+            "label": "Height",
+            "name": "height",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "14": "56px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px",
+                "28": "112px",
+                "32": "128px"
+            },
+            "default_value": 24,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "allow_in_bindings": 1,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_680d5a34c95e0",
+            "label": "Set Height for Different Screen Sizes",
+            "name": "set_height_for_different_breakpoints",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "allow_in_bindings": 0,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        },
+        {
+            "key": "field_680d54c58601b",
+            "label": "Medium Height",
+            "name": "height_md",
+            "aria-label": "",
+            "type": "select",
+            "instructions": ">= 768px",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_680d5a34c95e0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "14": "56px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px",
+                "28": "112px",
+                "32": "128px"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_680d54e68601c",
+            "label": "Large Height",
+            "name": "height_lg",
+            "aria-label": "",
+            "type": "select",
+            "instructions": ">= 1024px",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_680d5a34c95e0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "14": "56px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px",
+                "28": "112px",
+                "32": "128px"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        },
+        {
+            "key": "field_680d550b8601d",
+            "label": "X-Large Height",
+            "name": "height_xl",
+            "aria-label": "",
+            "type": "select",
+            "instructions": ">= 1280px",
+            "required": 0,
+            "conditional_logic": [
+                [
+                    {
+                        "field": "field_680d5a34c95e0",
+                        "operator": "==",
+                        "value": "1"
+                    }
+                ]
+            ],
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "0": "0px",
+                "1": "4px",
+                "2": "8px",
+                "3": "12px",
+                "4": "16px",
+                "6": "24px",
+                "8": "32px",
+                "10": "40px",
+                "12": "48px",
+                "14": "56px",
+                "16": "64px",
+                "20": "80px",
+                "24": "96px",
+                "28": "112px",
+                "32": "128px"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "allow_in_bindings": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/spacer"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1745706151
+}

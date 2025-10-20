@@ -1,0 +1,23 @@
+{
+  "name": "blockprint-wordpress-theme",
+  "description": "Blockprint WordPress Theme",
+  "version": "1.0.0",
+  "scripts": {
+    "build-styles": "npx @tailwindcss/cli -i ./assets/css/src/global.css -o ./assets/css/dist/global.css --minify",
+    "watch-styles": "npx @tailwindcss/cli -i ./assets/css/src/global.css -o ./assets/css/dist/global.css --watch",
+    "watch-scripts": "node watch.mjs",
+    "build-scripts": "node build.mjs",
+    "build": "npm-run-all -p build-styles build-scripts",
+    "watch": "npm-run-all -p watch-styles watch-scripts",
+    "dev": "npm run build && npm run watch"
+  },
+  "author": "lightburn",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "a11y-accordion-tabs": "^1.0.2",
+    "esbuild": "^0.25.5",
+    "npm-run-all": "^4.1.5",
+    "swiper": "^11.2.8",
+    "tailwindcss": "^4.1.8"
+  }
+}

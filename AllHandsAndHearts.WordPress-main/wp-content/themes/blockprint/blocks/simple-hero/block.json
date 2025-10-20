@@ -1,0 +1,32 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/simple-hero",
+    "title": "Simple Hero",
+    "description": "",
+    "category": "blockprint",
+    "icon": "cover-image",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full", "wide"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        },
+        "color": {
+            "background": true,
+            "text": true,
+            "link": true
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

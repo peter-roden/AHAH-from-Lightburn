@@ -1,0 +1,28 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/scroll-animation-hero",
+    "title": "Scroll Animation Hero",
+    "description": "",
+    "category": "blockprint",
+    "icon": "block-default",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    },
+    "viewScript": "file:./scripts.js"
+}

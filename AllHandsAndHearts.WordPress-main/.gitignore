@@ -1,0 +1,14 @@
+.DS_Store
+/*
+!/.github
+!.gitignore
+!favicon.ico
+!/wp-content
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/blockprint
+/wp-content/themes/blockprint/assets/css/dist/global.css
+/wp-content/themes/blockprint/assets/js/dist/*
+node_modules
+!README.MD

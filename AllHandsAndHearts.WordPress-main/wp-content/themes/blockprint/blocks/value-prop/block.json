@@ -1,0 +1,28 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/value-prop",
+    "title": "Value Proposition",
+    "description": "",
+    "category": "blockprint",
+    "icon": "star-empty",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        },
+        "alignText": true
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    }
+}

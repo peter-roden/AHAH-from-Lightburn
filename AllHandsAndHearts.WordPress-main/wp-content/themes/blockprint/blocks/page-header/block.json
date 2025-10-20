@@ -1,0 +1,27 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/page-header",
+    "title": "Page Header",
+    "description": "",
+    "category": "blockprint",
+    "icon": "block-default",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

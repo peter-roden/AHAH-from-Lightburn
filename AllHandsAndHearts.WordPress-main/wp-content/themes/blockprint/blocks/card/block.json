@@ -1,0 +1,24 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/card",
+    "title": "Card",
+    "description": "",
+    "category": "blockprint",
+    "icon": "block-default",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": false,
+        "anchor": true,
+        "color": {
+            "background": true,
+            "text": true,
+            "link": true
+        }
+    },
+    "parent": ["acf/cards"]
+}

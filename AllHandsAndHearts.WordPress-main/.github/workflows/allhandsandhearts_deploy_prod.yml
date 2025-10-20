@@ -1,0 +1,34 @@
+name: Prod Deploy
+
+on:
+  push:
+    branches:
+     - PRODUCTION
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v3
+
+      - name: Setup node.js 
+        uses: actions/setup-node@v3
+        with: 
+          node-version: 18
+          cache: 'npm'
+          cache-dependency-path: wp-content/themes/blockprint/package-lock.json
+
+      - name: Compile production assets
+        run: cd wp-content/themes/blockprint && npm install && npm run build
+
+      - name: Delete node_modules
+        run: cd wp-content/themes/blockprint && rm -rf node_modules
+
+      - name: Deploy to WP Engine
+        uses: wpengine/github-action-wpe-site-deploy@v3.0
+        with:
+          WPE_SSHG_KEY_PRIVATE: ${{ secrets.WPE_SSHG_KEY_PRIVATE }}
+          WPE_ENV: ahahwebnew

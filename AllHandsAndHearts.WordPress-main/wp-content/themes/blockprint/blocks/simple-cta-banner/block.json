@@ -1,0 +1,32 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/simple-cta-banner",
+    "title": "Simple CTA Banner",
+    "description": "",
+    "category": "blockprint",
+    "icon": "align-wide",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide", "full"],
+        "anchor": true,
+        "color": {
+            "background": true,
+            "text": true,
+            "link": true
+        },
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    }
+}

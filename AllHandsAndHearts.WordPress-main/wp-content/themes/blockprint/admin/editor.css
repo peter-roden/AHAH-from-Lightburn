@@ -1,0 +1,49 @@
+h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin-block: 0;
+}
+
+p, ol, ul {
+    &:where(:not(:last-child)) {
+        margin-bottom: 1.5rem;
+    }
+}
+
+.edit-post-visual-editor__post-title-wrapper h1 {
+    margin-bottom: 3rem;
+}
+
+.wp-block-acf-spacer,
+.wp-block-acf-spacer + *,
+.wp-block-acf-simple-hero,
+.wp-block-acf-split-hero,
+.wp-block-acf-stat-list {
+    margin-top: 0;
+}
+
+.wp-block-acf-two-col-content {
+    background-color: transparent !important;
+}
+
+.wp-block-acf-tab:has(.group\/tabs-panel.is-hidden) {
+    display: none;
+}
+
+.wp-block-acf-cards .group\/card {
+    height: 100%;
+}
+
+img.size-full {
+    height: 100% !important;
+}
+
+.wp-block-acf-testimonials q {
+    quotes: revert;
+}
+
+.wp-block-acf-testimonials q::before {
+    content: open-quote;
+}
+
+.wp-block-acf-testimonials q::after {
+    content: close-quote;
+}

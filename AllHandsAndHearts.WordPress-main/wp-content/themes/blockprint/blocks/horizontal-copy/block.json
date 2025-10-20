@@ -1,0 +1,27 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/horizontal-copy",
+    "title": "Horizontal Copy",
+    "description": "",
+    "category": "blockprint",
+    "icon": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48' fill='none' stroke='currentColor' stroke-width='2'><rect x='4' y='10' width='16' height='6' fill='currentColor'/><rect x='4' y='20' width='16' height='6' fill='currentColor'/><line x1='24' y1='8' x2='44' y2='8'/><line x1='24' y1='16' x2='44' y2='16'/><line x1='24' y1='24' x2='44' y2='24'/><line x1='24' y1='32' x2='44' y2='32'/></svg>",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "wide"
+        }
+    }
+}

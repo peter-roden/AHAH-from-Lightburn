@@ -1,0 +1,75 @@
+<!-- wp:acf/announcement-banner {"name":"acf/announcement-banner", "data":{"visible":"1"}} /-->
+
+<!-- wp:template-part {"slug":"header","tagName":"header","className":"js-header"} /-->
+
+<!-- wp:group {"tagName":"main","className":"my-4"} -->
+<main class="wp-block-group my-4">
+    <!-- wp:group {"align":"full"} -->
+    <div class="wp-block-group alignfull">
+        <!-- wp:group {"layout":{"type":"constrained"}} -->
+		<div class="wp-block-group">
+            <!-- wp:group {"align":"wide"} -->
+            <div class="wp-block-group alignwide">
+                <!-- wp:group {"className":"grid gap-4"} -->
+                <div class="wp-block-group grid grid-cols-12 gap-4">
+                    <!-- wp:group {"className":"col-span-12 lg:col-span-9 xl:col-span-7 lg:col-start-2 xl:col-start-2"} -->
+                    <div class="wp-block-group col-span-12 lg:col-span-9 xl:col-span-7 lg:col-start-2 xl:col-start-2">
+                        <!-- wp:heading {"level":1,"className":"mb-4! md:mb-6!","fontSize":"heading-3"} -->
+                            <h1 class="wp-block-heading mb-4! md:mb-6! has-heading-3-font-size">Search Results</h1>
+                        <!-- /wp:heading -->
+
+                        <!-- wp:group {"className":"mb-8! md:mb-10!"} -->
+                        <div class="wp-block-group mb-8! md:mb-10!">
+                            <!-- wp:group {"className":"grid grid-cols-12 gap-4"} -->
+                            <div class="wp-block-group grid grid-cols-12 gap-4">
+                                <!-- wp:group {"className":"md:col-span-9 xl:col-span-10"} -->
+                                <div class="wp-block-group col-span-12 md:col-span-9 xl:col-span-10">
+                                    <!-- wp:search {"label":"Search","showLabel":false,"buttonText":"Search","buttonPosition":"button-inside","buttonUseIcon":true} /-->
+                                </div>
+                                <!-- /wp:group -->
+                            </div>
+                            <!-- /wp:group -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:group {"className":"text-sm mb-8! md:mb-10!"} -->
+                        <div class="wp-block-group text-sm mb-8! md:mb-10!">
+                            <!-- wp:shortcode -->
+                            [results_label]
+                            <!-- /wp:shortcode -->
+                        </div>
+                        <!-- /wp:group -->
+
+                        <!-- wp:query {"query":{"layout":{"type":"default"}} -->
+                        <div class="wp-block-query">
+                            <!-- wp:post-template {"className":"flex flex-col gap-4"} -->
+                                <!-- wp:post-title {"isLink":true,"className":"text-h5 mb-2!"} /-->
+                                <!-- wp:post-featured-image {"width":"96px","className":"mb-2!"} /-->
+                                <!-- wp:post-excerpt {"className":"line-clamp-3 text-sm my-0!"} /-->
+                            <!-- /wp:post-template -->
+
+                            <!-- wp:query-pagination {"layout":{"type":"flex","justifyContent":"center"},"className":"lg:justify-start! mt-10!"} -->
+                                <!-- wp:query-pagination-previous /-->
+                                <!-- wp:query-pagination-numbers /-->
+                                <!-- wp:query-pagination-next /-->
+                            <!-- /wp:query-pagination -->
+
+                            <!-- wp:query-no-results -->
+                                
+                            <!-- /wp:query-no-results -->
+                        </div>
+                        <!-- /wp:query -->
+                    </div>
+                    <!-- /wp:group -->
+                </div>
+                <!-- /wp:group -->
+            </div>
+            <!-- /wp:group -->
+        </div>
+        <!-- /wp:group -->
+    </div>
+    <!-- /wp:group -->
+</main>
+<!-- /wp:group -->
+
+<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

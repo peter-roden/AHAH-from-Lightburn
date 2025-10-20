@@ -1,0 +1,46 @@
+{
+    "key": "group_680669d90dd15",
+    "title": "Accordions",
+    "fields": [
+        {
+            "key": "field_680669d9d4f03",
+            "label": "Multiexpand",
+            "name": "multiexpand",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "Allow accordions to open without closing others",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "allow_in_bindings": 1,
+            "ui_on_text": "",
+            "ui_off_text": "",
+            "ui": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/accordions"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 0,
+    "modified": 1745251826
+}

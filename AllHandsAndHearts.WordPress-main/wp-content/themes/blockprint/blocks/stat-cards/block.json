@@ -1,0 +1,27 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/stat-cards",
+    "title": "Stat Cards",
+    "description": "",
+    "category": "blockprint",
+    "icon": "<svg width='24' height='24' xmlns='http://www.w3.org/2000/svg' fill='currentColor'><rect x='2' y='4' width='12' height='7' rx='1'/><rect x='15' y='4' width='7' height='7' rx='1'/><rect x='2' y='13' width='7' height='7' rx='1'/><rect x='10' y='13' width='12' height='7' rx='1'/></svg>",
+    "keywords": [],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["full"],
+        "anchor": true,
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    },
+    "attributes": {
+        "align": {
+            "type": "string",
+            "default": "full"
+        }
+    }
+}

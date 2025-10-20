@@ -1,0 +1,27 @@
+{
+	"$schema": "https:\/\/schemas.wp.org\/trunk\/block.json",
+    "apiVersion": 2,
+    "name": "acf/cta-link",
+    "title": "CTA Link",
+    "category": "blockprint",
+    "icon": "arrow-right-alt",
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "block.php"
+    },
+    "supports": {
+        "align": ["wide"],
+        "anchor": true,
+        "jsx": true,
+        "color": {
+            "background": false,
+            "text": true
+        },
+        "typography": {
+            "fontSize": true
+        },
+        "spacing": {
+            "margin": [ "top", "bottom" ]
+        }
+    }
+}
